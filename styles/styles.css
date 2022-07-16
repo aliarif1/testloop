@@ -1,13 +1,10 @@
-body {
-  background-color: #d5d4d4;
-  text-align: center;
-}
-
 button {
-  background-color: #d5d4d4;
+  background-color: white;
+  position: inherit;
   border: none;
-  position: absolute;
-  left: 46%;
+  left: 50%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
 }
 
 button:hover {
@@ -15,9 +12,17 @@ button:hover {
 }
 
 .container {
-  text-align: center;
-  vertical-align: center;
-  margin: 20% auto;
+  height: 100vh;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .hide {
