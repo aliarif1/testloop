@@ -1,0 +1,25 @@
+body {
+  background-color: #d5d4d4;
+  text-align: center;
+}
+
+button {
+  background-color: #d5d4d4;
+  border: none;
+  position: absolute;
+  left: 46%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+  vertical-align: center;
+  margin: 20% auto;
+}
+
+.hide {
+  display: none;
+}
